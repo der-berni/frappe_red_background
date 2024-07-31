@@ -1,0 +1,9 @@
+[project]
+name = "red_background"
+authors = [
+    { name = "ALYF GmbH", email = "hallo@alyf.de"}
+]
+description = "Red background to distinguish test systems from prod"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
