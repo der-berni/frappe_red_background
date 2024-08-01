@@ -13,14 +13,14 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/red_background/css/red_background.css"
-# app_include_js = "/assets/anothertest/js/anothertest.js"
+# app_include_js = "/assets/red_background/js/red_background.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/anothertest/css/anothertest.css"
-# web_include_js = "/assets/anothertest/js/anothertest.js"
+# web_include_css = "/assets/red_background/css/red_background.css"
+# web_include_js = "/assets/red_background/js/red_background.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "anothertest/public/scss/website"
+# website_theme_scss = "red_background/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -38,7 +38,7 @@ app_include_css = "/assets/red_background/css/red_background.css"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "anothertest/public/icons.svg"
+# app_include_icons = "red_background/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -62,43 +62,43 @@ app_include_css = "/assets/red_background/css/red_background.css"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "anothertest.utils.jinja_methods",
-# 	"filters": "anothertest.utils.jinja_filters"
+# 	"methods": "red_background.utils.jinja_methods",
+# 	"filters": "red_background.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "anothertest.install.before_install"
-# after_install = "anothertest.install.after_install"
+# before_install = "red_background.install.before_install"
+# after_install = "red_background.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "anothertest.uninstall.before_uninstall"
-# after_uninstall = "anothertest.uninstall.after_uninstall"
+# before_uninstall = "red_background.uninstall.before_uninstall"
+# after_uninstall = "red_background.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "anothertest.utils.before_app_install"
-# after_app_install = "anothertest.utils.after_app_install"
+# before_app_install = "red_background.utils.before_app_install"
+# after_app_install = "red_background.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "anothertest.utils.before_app_uninstall"
-# after_app_uninstall = "anothertest.utils.after_app_uninstall"
+# before_app_uninstall = "red_background.utils.before_app_uninstall"
+# after_app_uninstall = "red_background.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "anothertest.notifications.get_notification_config"
+# notification_config = "red_background.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -137,39 +137,39 @@ app_include_css = "/assets/red_background/css/red_background.css"
 
 # scheduler_events = {
 # 	"all": [
-# 		"anothertest.tasks.all"
+# 		"red_background.tasks.all"
 # 	],
 # 	"daily": [
-# 		"anothertest.tasks.daily"
+# 		"red_background.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"anothertest.tasks.hourly"
+# 		"red_background.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"anothertest.tasks.weekly"
+# 		"red_background.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"anothertest.tasks.monthly"
+# 		"red_background.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "anothertest.install.before_tests"
+# before_tests = "red_background.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "anothertest.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "red_background.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "anothertest.task.get_dashboard_data"
+# 	"Task": "red_background.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -183,13 +183,13 @@ app_include_css = "/assets/red_background/css/red_background.css"
 
 # Request Events
 # ----------------
-# before_request = ["anothertest.utils.before_request"]
-# after_request = ["anothertest.utils.after_request"]
+# before_request = ["red_background.utils.before_request"]
+# after_request = ["red_background.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["anothertest.utils.before_job"]
-# after_job = ["anothertest.utils.after_job"]
+# before_job = ["red_background.utils.before_job"]
+# after_job = ["red_background.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -219,7 +219,7 @@ app_include_css = "/assets/red_background/css/red_background.css"
 # --------------------------------
 
 # auth_hooks = [
-# 	"anothertest.auth.validate"
+# 	"red_background.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
